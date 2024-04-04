@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<title>Namensgenerator</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="styles/custom.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container mt-5">
+		<h1><b>Namensgenerator</b></h1>
+		<form id="nameGeneratorForm">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for="raceDropdown"><b>Volk:</b></label>
+						<select class="form-control small-dropdown" id="raceDropdown">
+							<option id="randomRace">Zufall</option>
+							<option id="humanRandom">Mensch - Zufall</option>
+							<option id="humanArabic">Mensch - Arabisch</option>
+							<option id="humanBantu">Mensch - Bantuisch</option>
+							<option id="humanCeltic">Mensch - Keltisch</option>
+							<option id="humanChinese">Mensch - Chinesisch</option>
+							<option id="humanEgyptian">Mensch - Ägyptisch</option>
+							<option id="humanGermanic">Mensch - Germanisch</option>
+							<option id="humanGreek">Mensch - Griechisch</option>
+							<option id="humanIndian">Mensch - Indisch</option>
+							<option id="humanJapanese">Mensch - Japanisch</option>
+							<option id="humanMesoAmerican">Mensch - Meso-Amerikanisch</option>
+							<option id="humanPersian">Mensch - Persisch</option>
+							<option id="humanPolynesian">Mensch - Polynesisch</option>
+							<option id="humanRomanic">Mensch - Romanisch</option>
+							<option id="humanScandinavian">Mensch - Skandinavisch</option>
+							<option id="humanSlavic">Mensch - Slawisch</option>
+							<option id="dwarf">Zwerg</option>
+							<option id="elf">Elf</option>
+							<option id="hafling">Halbling</option>
+							<option id="gnome">Gnom</option>
+							<option id="halfElf">Halbelf</option>
+							<option id="halfOrc">Halbork</option>
+							<option id="dragonborn">Drachenblütiger</option>
+							<option id="tiefling">Tiefling</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for="genderDropdown"><b>Geschlecht:</b></label>
+						<select class="form-control small-dropdown" id="genderDropdown">
+							<option id="randomGender">Zufall</option>
+							<option id="male">Männlich</option>
+							<option id="female">Weiblich</option>
+							<option id="nonBinary">Nicht-Binär</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="form-group">
+						<label for="nameTypeDropdown"><b>Namensart:</b></label>
+						<select class="form-control small-dropdown" id="nameTypeDropdown">
+							<option id="firstAndLastName">Vorname und Nachname</option>
+							<option id="firstName">Vorname</option>
+							<option id="lastName">Nachname</option>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="numberOfNames"><b>Anzahl der Namen:</b></label>
+						<input type="number" class="form-control small-dropdown" id="numberOfNames" min="1" value="1">
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-auto">
+					<div class="form-group">
+						<button type="submit" id="generateNamesButton" class="btn btn-secondary">Generieren</button>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div class="form-auto">
+						<button type="button" id="copyNamesButton" class="btn btn-secondary">Kopieren</button>
+					</div>
+				</div>
+			</div>
+
+		</form>
+		<br>
+		<h2>Generierte Namen:</h2>
+		<div id="generatedNames"></div>
+		<div class="container mt-4" id="container-generated-names">
+		</div>
+	</div>
+
+	<!-- <button type="button" class="btn btn-secondary btn-floating btn-lg mt-1" id="btn-back-to-top">
+		<b style="font-size: 24px">^</b>
+	</button> -->
+
+	<!-- Bootstrap JavaScript -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	
+
+	<!--Scripts for generating the author's first name -->
+	<script src="scripts/names/first_name/generateRandomFirstNameDragonbornFemale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameDragonbornMale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameDragonbornNonBinary.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameDwarfFemale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameDwarfMale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameDwarfNonBinary.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameElfFemale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameElfMale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameElfNonBinary.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameGnomeFemale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameGnomeMale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameGnomeNonBinary.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHalfOrcFemale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHalfOrcMale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHalfOrcNonBinary.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHalflingFemale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHalflingMale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHalflingNonBinary.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinary.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameTieflingFemale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameTieflingMale.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameTieflingNonBinary.js"></script>
+
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleArabic.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleBantu.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleCeltic.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleChinese.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleEgyptian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleGermanic.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleGreek.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleIndian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleJapanese.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleMesoAmerican.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMalePersian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMalePolynesian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleRomanesque.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleScandinavian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleSlavic.js"></script>
+
+
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemaleArabic.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemaleBantu.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemaleCeltic.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemaleChinese.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemaleEgyptian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemaleGermanic.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemaleGreek.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemaleIndian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemaleJapanese.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemaleMesoAmerican.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemalePersian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemalePolynesian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemaleRomanesque.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemaleScandinavian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanFemaleSlavic.js"></script>
+
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryArabic.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryBantu.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryCeltic.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryChinese.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryEgyptian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryGermanic.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryGreek.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryIndian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryJapanese.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryMesoAmerican.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryPersian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryPolynesian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryRomanesque.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryScandinavian.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinarySlavic.js"></script>
+
+	<script src="scripts/names/last_name/generateRandomLastNameHumanArabic.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanBantu.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanCeltic.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanChinese.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanEgyptian.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanGermanic.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanGreek.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanIndian.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanJapanese.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanMesoAmerican.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanPersian.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanPolynesian.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanRomanesque.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanScandinavian.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHumanSlavic.js"></script>
+
+	<!--Scripts of syllables for names -->
+	<script src="scripts/names/syllables_name/dragonbornNameSyllables.js"></script>
+	<script src="scripts/names/syllables_name/dwarfNameSyllables.js"></script>
+	<script src="scripts/names/syllables_name/elfNameSyllables.js"></script>
+	<script src="scripts/names/syllables_name/gnomeNameSyllables.js"></script>
+	<script src="scripts/names/syllables_name/halflingNameSyllables.js"></script>
+	<script src="scripts/names/syllables_name/halfOrcNameSyllables.js"></script>
+	<script src="scripts/names/syllables_name/humanNameSyllables.js"></script>
+	<script src="scripts/names/syllables_name/tieflingNameSyllables.js"></script>
+
+	<!--Scripts for generating the last name -->
+	<script src="scripts/names/last_name/generateRandomLastNameDragonborn.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameDwarf.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameElf.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameGnome.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHalfling.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHalfOrc.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHuman.js"></script>
+
+	<script src="scripts/names/generateFirstName.js"></script>
+	<script src="scripts/names/generateLastName.js"></script>
+	<script src="scripts/names/generateNames.js"></script>
+	<script src="scripts/names/generateRandomGender.js"></script>
+	<script src="scripts/names/generateRandomRace.js"></script>
+	<script src="scripts/names/generateRandomRegion.js"></script>
+	
+	<script src="scripts/getRandomElement.js"></script>
+	<script src="scripts/interface/eventListener.js"></script>
+</body>
+
+</html>
