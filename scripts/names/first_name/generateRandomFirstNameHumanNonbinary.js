@@ -34,4 +34,3 @@ function generateRandomFirstNameHumanNonBinary(region) {
 			console.error('Ungültige Region:', region);
 	}
 }
-
