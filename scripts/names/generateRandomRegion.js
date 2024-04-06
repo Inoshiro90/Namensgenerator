@@ -19,6 +19,6 @@ function generateRandomRegion() {
 		'chinesisch',
 		'japanisch',
 	]);
-	console.log('Zufällige Region ist ' + region);
+	// console.log('Zufällige Region ist ' + region);
 	return region;
 }

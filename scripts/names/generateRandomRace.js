@@ -9,7 +9,14 @@ function generateRandomRace() {
 		'Halbork',
 		'Drachenblütiger',
 		'Tiefling',
+		'Aasimar',
+		'Echsenmensch',
+		'Firbolg',
+		'Goliath',
+		'Kenku',
+		'Tabaxi',
+		'Triton'
 	]);
-console.log('Zufällig ausgewähltes Volk ist ' + race)
+// console.log('Zufällig ausgewähltes Volk ist ' + race)
 	return race
 }

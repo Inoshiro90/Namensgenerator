@@ -35,6 +35,27 @@ function generateFirstName(gender, race, region) {
 				case 'Tiefling':
 					firstName = generateRandomFirstNameTieflingMale();
 					break;
+				case 'Aasimar':
+					firstName = generateRandomFirstNameHumanMale(region);
+					break;
+				case 'Firbolg':
+					firstName = generateRandomFirstNameElfMale();
+					break;
+				case 'Echsenmensch':
+					firstName = generateRandomFirstNameLizardfolk();
+					break;
+				case 'Goliath':
+					firstName = generateRandomFirstNameGoliath();
+					break;
+				case 'Kenku':
+					firstName = generateRandomFirstNameKenku();
+					break;
+				case 'Tabaxi':
+					firstName = generateRandomFirstNameTabaxi();
+					break;
+				case 'Triton':
+					firstName = generateRandomFirstNameTritonMale();
+					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);
 			}
@@ -73,6 +94,27 @@ function generateFirstName(gender, race, region) {
 				case 'Tiefling':
 					firstName = generateRandomFirstNameTieflingFemale();
 					break;
+				case 'Aasimar':
+					firstName = generateRandomFirstNameHumanFemale(region);
+					break;
+				case 'Firbolg':
+					firstName = generateRandomFirstNameElfFemale();
+					break;
+				case 'Echsenmensch':
+					firstName = generateRandomFirstNameLizardfolk();
+					break;
+				case 'Goliath':
+					firstName = generateRandomFirstNameGoliath();
+					break;
+				case 'Kenku':
+					firstName = generateRandomFirstNameKenku();
+					break;
+				case 'Tabaxi':
+					firstName = generateRandomFirstNameTabaxi();
+					break;
+				case 'Triton':
+					firstName = generateRandomFirstNameTritonFemale();
+					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);
 			}
@@ -110,6 +152,27 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Tiefling':
 					firstName = generateRandomFirstNameTieflingNonBinary();
+					break;
+				case 'Aasimar':
+					firstName = generateRandomFirstNameHumanNonBinary(region);
+					break;
+				case 'Firbolg':
+					firstName = generateRandomFirstNameElfNonBinary();
+					break;
+				case 'Echsenmensch':
+					firstName = generateRandomLastNameLizardfolk();
+					break;
+				case 'Goliath':
+					firstName = generateRandomFirstNameGoliath();
+					break;
+				case 'Kenku':
+					firstName = generateRandomFirstNameKenku();
+					break;
+				case 'Tabaxi':
+					firstName = generateRandomFirstNameTabaxi();
+					break;
+				case 'Triton':
+					firstName = generateRandomFirstNameTritonNonBinary();
 					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);

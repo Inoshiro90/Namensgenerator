@@ -33,6 +33,27 @@ function generateLastName(race, region) {
 		case 'Tiefling':
 			lastName = generateRandomLastNameHuman(region);
 			break;
+		case 'Aasimar':
+			lastName = generateRandomLastNameHuman(region);
+			break;
+		case 'Firbolg':
+			lastName = generateRandomLastNameFirbolg();
+			break;
+		case 'Echsenmensch':
+			lastName = generateRandomLastNameLizardfolk();
+			break;
+		case 'Goliath':
+			lastName = generateRandomLastNameGoliath();
+			break;
+		case 'Kenku':
+			lastName = generateRandomLastNameKenku();
+			break;
+		case 'Tabaxi':
+			lastName = generateRandomLastNameTabaxi();
+			break;
+		case 'Triton':
+			lastName = generateRandomLastNameTriton();
+			break;
 		default:
 			console.error('Ungültiges Volk des Autors:', race);
 	}
