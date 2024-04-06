@@ -11,7 +11,6 @@ function generateNames() {
 		for (let i = 0; i < numberOfNames; i++) {
 			let selectedRace = document.getElementById('raceDropdown').value;
 			let selectedGender = document.getElementById('genderDropdown').value;
-
 			let gender;
 			let race;
 			let region;
@@ -63,6 +62,27 @@ function generateNames() {
 					case 'Drachenblütiger':
 						race = 'Drachenblütiger';
 						break;
+					case 'Aasimar':
+						race = 'Aasimar';
+						break;
+					case 'Echsenmensch':
+						race = 'Echsenmensch';
+						break;
+					case 'Firbolg':
+						race = 'Firbolg';
+						break;
+					case 'Goliath':
+						race = 'Goliath';
+						break;
+					case 'Kenku':
+						race = 'Kenku';
+						break;
+					case 'Tabaxi':
+						race = 'Tabaxi';
+						break;
+					case 'Triton':
+						race = 'Triton';
+						break;
 					default:
 						console.error('Ungültiges Volk: ' + selectedRace);
 						break;
@@ -74,7 +94,8 @@ function generateNames() {
 				selectedRace === 'Zufall' ||
 				selectedRace === 'Mensch - Zufall' ||
 				selectedRace === 'Halbelf' ||
-				selectedRace === 'Tiefling'
+				selectedRace === 'Tiefling' ||
+				selectedRace === 'Aasimar'
 			) {
 				region = generateRandomRegion();
 			} else {
@@ -130,6 +151,12 @@ function generateNames() {
 					case 'Gnom':
 					case 'Halbork':
 					case 'Drachenblütiger':
+					case 'Echsenmensch':
+					case 'Firbolg':
+					case 'Goliath':
+					case 'Kenku':
+					case 'Tabaxi':
+					case 'Triton':
 						region = '';
 						break;
 					default:

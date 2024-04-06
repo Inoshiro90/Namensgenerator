@@ -1,5 +1,5 @@
 function generateRandomLastNameHuman(region) {
-	console.log('Region des Autors in RandomLastNameHuman:', region)
+	// console.log('Region des Autors in RandomLastNameHuman:', region)
 	switch (region) {
 		case 'germanisch':
 			return generateRandomLastNameHumanGermanic();
