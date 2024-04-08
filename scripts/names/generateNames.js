@@ -65,9 +65,9 @@ function generateNames() {
 					case 'Aasimar':
 						race = 'Aasimar';
 						break;
-						case 'Aarakocra':
-							race = 'Aarakocra';
-							break;
+					case 'Aarakocra':
+						race = 'Aarakocra';
+						break;
 					case 'Echsenmensch':
 						race = 'Echsenmensch';
 						break;
