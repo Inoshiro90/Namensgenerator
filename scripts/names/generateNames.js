@@ -65,6 +65,9 @@ function generateNames() {
 					case 'Aasimar':
 						race = 'Aasimar';
 						break;
+						case 'Aarakocra':
+							race = 'Aarakocra';
+							break;
 					case 'Echsenmensch':
 						race = 'Echsenmensch';
 						break;
@@ -151,6 +154,7 @@ function generateNames() {
 					case 'Gnom':
 					case 'Halbork':
 					case 'Drachenblütiger':
+					case 'Aarakocra':
 					case 'Echsenmensch':
 					case 'Firbolg':
 					case 'Goliath':

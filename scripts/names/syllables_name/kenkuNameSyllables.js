@@ -101,7 +101,7 @@ const kenkuFirstNameSyllable1 = [
 	'Zwitscher',
 ];
 
-const kenkuFirstNameSyllable2 = ['er']
+const kenkuFirstNameSyllable2 = ['er', 'ling', 'i', 'chen', 'lein', 'el', '']
 const kenkuFirstNameSyllable3 = [''];
 const kenkuFirstNameSyllable4 = [''];
 const kenkuFirstNameSyllable5 = [''];

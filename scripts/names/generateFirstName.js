@@ -38,6 +38,9 @@ function generateFirstName(gender, race, region) {
 				case 'Aasimar':
 					firstName = generateRandomFirstNameHumanMale(region);
 					break;
+				case 'Aarakocra':
+					firstName = generateRandomFirstNameAarakocra();
+					break;
 				case 'Firbolg':
 					firstName = generateRandomFirstNameElfMale();
 					break;
@@ -97,6 +100,9 @@ function generateFirstName(gender, race, region) {
 				case 'Aasimar':
 					firstName = generateRandomFirstNameHumanFemale(region);
 					break;
+				case 'Aarakocra':
+					firstName = generateRandomFirstNameAarakocra();
+					break;
 				case 'Firbolg':
 					firstName = generateRandomFirstNameElfFemale();
 					break;
@@ -155,6 +161,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Aasimar':
 					firstName = generateRandomFirstNameHumanNonBinary(region);
+					break;
+				case 'Aarakocra':
+					firstName = generateRandomFirstNameAarakocra();
 					break;
 				case 'Firbolg':
 					firstName = generateRandomFirstNameElfNonBinary();

@@ -10,6 +10,7 @@ function generateRandomRace() {
 		'Drachenblütiger',
 		'Tiefling',
 		'Aasimar',
+		'Aarakocra',
 		'Echsenmensch',
 		'Firbolg',
 		'Goliath',
