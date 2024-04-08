@@ -11,6 +11,8 @@ function generateRandomRace() {
 		'Tiefling',
 		'Aasimar',
 		'Aarakocra',
+		'Duergar',
+		'Githyanki',
 		'Echsenmensch',
 		'Firbolg',
 		'Goliath',

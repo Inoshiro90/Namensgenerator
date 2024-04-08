@@ -41,6 +41,12 @@ function generateFirstName(gender, race, region) {
 				case 'Aarakocra':
 					firstName = generateRandomFirstNameAarakocra();
 					break;
+				case 'Duergar':
+					firstName = generateRandomFirstNameDwarfMale();
+					break;
+				case 'Githyanki':
+					firstName = generateRandomFirstNameGithyankiMale();
+					break;
 				case 'Firbolg':
 					firstName = generateRandomFirstNameElfMale();
 					break;
@@ -103,11 +109,17 @@ function generateFirstName(gender, race, region) {
 				case 'Aarakocra':
 					firstName = generateRandomFirstNameAarakocra();
 					break;
+				case 'Duergar':
+					firstName = generateRandomFirstNameDwarfFemale();
+					break;
 				case 'Firbolg':
 					firstName = generateRandomFirstNameElfFemale();
 					break;
 				case 'Echsenmensch':
 					firstName = generateRandomFirstNameLizardfolk();
+					break;
+				case 'Githyanki':
+					firstName = generateRandomFirstNameGithyankiFemale();
 					break;
 				case 'Goliath':
 					firstName = generateRandomFirstNameGoliath();
@@ -165,11 +177,17 @@ function generateFirstName(gender, race, region) {
 				case 'Aarakocra':
 					firstName = generateRandomFirstNameAarakocra();
 					break;
+				case 'Duergar':
+					firstName = generateRandomFirstNameDwarfNonBinary();
+					break;
 				case 'Firbolg':
 					firstName = generateRandomFirstNameElfNonBinary();
 					break;
 				case 'Echsenmensch':
 					firstName = generateRandomLastNameLizardfolk();
+					break;
+				case 'Githyanki':
+					firstName = generateRandomFirstNameGithyankiNonBinary();
 					break;
 				case 'Goliath':
 					firstName = generateRandomFirstNameGoliath();
