@@ -67,6 +67,14 @@ function generateRandomFirstNameGithyankiNonBinary() {
 
 		firstName = syllable1 + syllable2 + syllable3 + syllable4 + syllable5;
 
+		// Replace consecutive vowels with a single vowel and an apostrophe
+		firstName = firstName.replace(/([aeiou])\1/g, '$1\'$1');
+
+		// Remove apostrophe if the name ends with it
+		if (firstName.endsWith('\'')) {
+			firstName = firstName.slice(0, -1);
+		}
+
 		// Check for consecutive vowels
 		const currentVowel = firstName.match(/[aeiou]/gi);
 		if (currentVowel && currentVowel[0] === previousVowel) {
