@@ -13,6 +13,7 @@ function generateRandomRace() {
 		'Aarakocra',
 		'Duergar',
 		'Githyanki',
+		'Githzerai',
 		'Echsenmensch',
 		'Firbolg',
 		'Goliath',

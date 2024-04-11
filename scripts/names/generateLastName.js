@@ -45,6 +45,9 @@ function generateLastName(race, region) {
 		case 'Githyanki':
 			lastName = generateRandomLastNameGithyanki();
 			break;
+		case 'Githzerai':
+			lastName = generateRandomLastNameGithzerai();
+			break;
 		case 'Firbolg':
 			lastName = generateRandomLastNameFirbolg();
 			break;

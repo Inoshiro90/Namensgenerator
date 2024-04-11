@@ -74,6 +74,9 @@ function generateNames() {
 					case 'Githyanki':
 						race = 'Githyanki';
 						break;
+					case 'Githzerai':
+						race = 'Githzerai';
+						break;
 					case 'Echsenmensch':
 						race = 'Echsenmensch';
 						break;
@@ -163,6 +166,7 @@ function generateNames() {
 					case 'Aarakocra':
 					case 'Duergar':
 					case 'Githyanki':
+					case 'Githzerai':
 					case 'Echsenmensch':
 					case 'Firbolg':
 					case 'Goliath':
