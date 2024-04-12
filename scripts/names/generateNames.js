@@ -77,6 +77,15 @@ function generateNames() {
 					case 'Githzerai':
 						race = 'Githzerai';
 						break;
+					case 'Goblin':
+						race = 'Goblin';
+						break;
+					case 'Grottenschrat':
+						race = 'Grottenschrat';
+						break;
+					case 'Hobgoblin':
+						race = 'Hobgoblin';
+						break;
 					case 'Echsenmensch':
 						race = 'Echsenmensch';
 						break;
@@ -167,6 +176,9 @@ function generateNames() {
 					case 'Duergar':
 					case 'Githyanki':
 					case 'Githzerai':
+					case 'Goblin':
+					case 'Grottenschrat':
+					case 'Hobgoblin':
 					case 'Echsenmensch':
 					case 'Firbolg':
 					case 'Goliath':

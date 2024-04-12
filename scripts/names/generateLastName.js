@@ -48,6 +48,11 @@ function generateLastName(race, region) {
 		case 'Githzerai':
 			lastName = generateRandomLastNameGithzerai();
 			break;
+		case 'Goblin':
+		case 'Grottenschrat':
+		case 'Hobgoblin':
+			lastName = generateRandomLastNameGoblinoid();
+			break;
 		case 'Firbolg':
 			lastName = generateRandomLastNameFirbolg();
 			break;

@@ -12,15 +12,18 @@ function generateRandomRace() {
 		'Aasimar',
 		'Aarakocra',
 		'Duergar',
-		'Githyanki',
-		'Githzerai',
 		'Echsenmensch',
 		'Firbolg',
+		'Githyanki',
+		'Githzerai',
+		'Goblin',
 		'Goliath',
+		'Grottenschrat',
+		'Hobgoblin',
 		'Kenku',
 		'Tabaxi',
-		'Triton'
+		'Triton',
 	]);
-// console.log('Zufällig ausgewähltes Volk ist ' + race)
-	return race
+	// console.log('Zufällig ausgewähltes Volk ist ' + race)
+	return race;
 }
