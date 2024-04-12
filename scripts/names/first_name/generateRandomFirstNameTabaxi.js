@@ -42,6 +42,8 @@ function generateRandomFirstNameTabaxi() {
 
 		firstName = syllable1 + syllable2 + syllable3 + syllable4 + syllable5;
 
+		nickName = getRandomElement([syllable1, syllable2]);
+
 		// Check for consecutive vowels
 		const currentVowel = firstName.match(/[aeiou]/gi);
 		if (currentVowel && currentVowel[0] === previousVowel) {
@@ -74,5 +76,5 @@ function generateRandomFirstNameTabaxi() {
 		consecutiveXZQ
 	);
 
-	return firstName.charAt(0).toUpperCase() + firstName.slice(1);
+	return firstName.charAt(0).toUpperCase() + firstName.slice(1) + ' "' + nickName.charAt(0).toUpperCase() + nickName.slice(1) + '"';
 }
