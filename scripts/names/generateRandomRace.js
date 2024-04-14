@@ -21,6 +21,7 @@ function generateRandomRace() {
 		'Grottenschrat',
 		'Hobgoblin',
 		'Kenku',
+		'Kalashtar',
 		'Tabaxi',
 		'Triton',
 	]);

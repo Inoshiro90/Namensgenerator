@@ -1,4 +1,4 @@
-function generateLastName(race, region) {
+function generateLastName(race, region, firstName) {
 	let lastName;
 	switch (race) {
 		case 'Mensch':
@@ -61,6 +61,9 @@ function generateLastName(race, region) {
 			break;
 		case 'Goliath':
 			lastName = generateRandomLastNameGoliath();
+			break;
+		case 'Kalashtar':
+			lastName = generateRandomLastNameKalashtar(firstName);
 			break;
 		case 'Kenku':
 			lastName = generateRandomLastNameKenku();
