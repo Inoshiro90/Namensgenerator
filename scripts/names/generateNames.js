@@ -219,7 +219,7 @@ function generateNames() {
 
 			// Generate first and last name
 			let firstName = generateFirstName(gender, race, region);
-			let lastName = generateLastName(gender, race, region, firstName);
+			let lastName = generateLastName(race, region, firstName);
 
 			// Hinzufügen des generierten Namens zum Array
 			generatedNames.push(firstName + ' ' + lastName);
