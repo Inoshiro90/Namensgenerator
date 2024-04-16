@@ -672,7 +672,6 @@ const goblinoidNickNameSyllable1 = [
 	'Suppen',
 	'Trampel',
 	'Trottel',
-	'Ungeziefer',
 	'Vogel',
 	'Warzen',
 	'Wider',
