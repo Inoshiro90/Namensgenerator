@@ -64,6 +64,9 @@ function generateFirstName(gender, race, region) {
 				case 'Goliath':
 					firstName = generateRandomFirstNameGoliath();
 					break;
+				case 'Grung':
+					firstName = generateRandomFirstNameGrung();
+					break;
 				case 'Kalashtar':
 					firstName = generateRandomFirstNameKalashtar();
 					break;
@@ -143,6 +146,9 @@ function generateFirstName(gender, race, region) {
 				case 'Goliath':
 					firstName = generateRandomFirstNameGoliath();
 					break;
+				case 'Grung':
+					firstName = generateRandomFirstNameGrung();
+					break;
 				case 'Kalashtar':
 					firstName = generateRandomFirstNameKalashtar();
 					break;
@@ -206,7 +212,7 @@ function generateFirstName(gender, race, region) {
 					firstName = generateRandomFirstNameElfNonBinary();
 					break;
 				case 'Echsenmensch':
-					firstName = generateRandomLastNameLizardfolk();
+					firstName = generateRandomFirstNameLizardfolk();
 					break;
 				case 'Githyanki':
 					firstName = generateRandomFirstNameGithyankiNonBinary();
@@ -221,6 +227,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Goliath':
 					firstName = generateRandomFirstNameGoliath();
+					break;
+				case 'Grung':
+					firstName = generateRandomFirstNameGrung();
 					break;
 				case 'Kalashtar':
 					firstName = generateRandomFirstNameKalashtar();

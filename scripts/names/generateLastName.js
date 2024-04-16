@@ -53,6 +53,9 @@ function generateLastName(race, region, firstName) {
 		case 'Hobgoblin':
 			lastName = generateRandomLastNameGoblinoid();
 			break;
+		case 'Grung':
+			lastName = generateRandomLastNameGrung();
+			break;
 		case 'Firbolg':
 			lastName = generateRandomLastNameFirbolg();
 			break;

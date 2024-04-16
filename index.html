@@ -54,6 +54,7 @@
 							<option id="goblin">Goblin</option>
 							<option id="goliath">Goliath</option>
 							<option id="bugbear">Grottenschrat</option>
+							<option id="grung">Grung</option>
 							<option id="hobgoblin">Hobgoblin</option>
 							<option id="kalasthar">Kalashtar</option>
 							<option id="kenku">Kenku</option>
@@ -107,10 +108,10 @@
 			</div>
 		</form>
 		<br>
+		<div id="descriptionNames"></div>
 		<h2>Generierte Namen:</h2>
 		<div id="generatedNames"></div>
-		<div class="container mt-4" id="container-generated-names">
-		</div>
+	</div>
 	</div>
 
 	<!-- <button type="button" class="btn btn-secondary btn-floating btn-lg mt-1" id="btn-back-to-top">
@@ -123,7 +124,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 
-	<!--Scripts for generating the author's first name -->
+	<!--Scripts for generating the first name -->
 	<script src="scripts/names/first_name/generateRandomFirstNameDragonbornFemale.js"></script>
 	<script src="scripts/names/first_name/generateRandomFirstNameDragonbornMale.js"></script>
 	<script src="scripts/names/first_name/generateRandomFirstNameDragonbornNonBinary.js"></script>
@@ -166,6 +167,7 @@
 	<script src="scripts/names/first_name/generateRandomFirstNameGoblinoidMale.js"></script>
 	<script src="scripts/names/first_name/generateRandomFirstNameGoblinoidNonBinary.js"></script>
 	<script src="scripts/names/first_name/generateRandomFirstNameKalashtar.js"></script>
+	<script src="scripts/names/first_name/generateRandomFirstNameGrung.js"></script>
 
 	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleArabic.js"></script>
 	<script src="scripts/names/first_name/generateRandomFirstNameHumanMaleBantu.js"></script>
@@ -215,27 +217,7 @@
 	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinaryScandinavian.js"></script>
 	<script src="scripts/names/first_name/generateRandomFirstNameHumanNonBinarySlavic.js"></script>
 
-	<!--Scripts for generating the last name -->
-	<script src="scripts/names/last_name/generateRandomLastNameDragonborn.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameDwarf.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameElf.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameGoblinoid.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameGnome.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameHalfling.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameHalfOrc.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameHuman.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameAarakocra.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameDuergar.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameGithyanki.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameGithzerai.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameLizardfolk.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameFirbolg.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameGoliath.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameKalashtar.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameKenku.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameTabaxi.js"></script>
-	<script src="scripts/names/last_name/generateRandomLastNameTriton.js"></script>
-
+	<!--Scripts for generating the human last name -->
 	<script src="scripts/names/last_name/generateRandomLastNameHumanArabic.js"></script>
 	<script src="scripts/names/last_name/generateRandomLastNameHumanBantu.js"></script>
 	<script src="scripts/names/last_name/generateRandomLastNameHumanCeltic.js"></script>
@@ -251,6 +233,41 @@
 	<script src="scripts/names/last_name/generateRandomLastNameHumanRomanesque.js"></script>
 	<script src="scripts/names/last_name/generateRandomLastNameHumanScandinavian.js"></script>
 	<script src="scripts/names/last_name/generateRandomLastNameHumanSlavic.js"></script>
+
+	<!--Scripts for generating the fantasy race last name -->
+	<script src="scripts/names/last_name/generateRandomLastNameDragonborn.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameDwarf.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameElf.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameGoblinoid.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameGnome.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHalfling.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHalfOrc.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameHuman.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameAarakocra.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameDuergar.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameGithyanki.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameGithzerai.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameLizardfolk.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameFirbolg.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameGoliath.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameGrung.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameKalashtar.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameKenku.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameTabaxi.js"></script>
+	<script src="scripts/names/last_name/generateRandomLastNameTriton.js"></script>
+
+	<!--Scripts for race, gender, region, name, first name and last name generation-->
+	<script src="scripts/names/generateFirstName.js"></script>
+	<script src="scripts/names/generateLastName.js"></script>
+	<script src="scripts/names/generateNames.js"></script>
+	<script src="scripts/names/generateRandomGender.js"></script>
+	<script src="scripts/names/generateRandomRace.js"></script>
+	<script src="scripts/names/generateRandomRegion.js"></script>
+
+	<!-- Misc scripts -->
+	<script src="scripts/names/addNameDescription.js"></script>
+	<script src="scripts/interface/eventListener.js"></script>
+	<script src="scripts/getRandomElement.js"></script>
 
 	<!--Scripts of syllables for names -->
 	<script src="scripts/names/syllables_name/dragonbornNameSyllables.js"></script>
@@ -269,21 +286,12 @@
 	<script src="scripts/names/syllables_name/lizardfolkNameSyllables.js"></script>
 	<script src="scripts/names/syllables_name/firbolgNameSyllables.js"></script>
 	<script src="scripts/names/syllables_name/goliathNameSyllables.js"></script>
+	<script src="scripts/names/syllables_name/grungNameSyllables.js"></script>
 	<script src="scripts/names/syllables_name/kalashtarNameSyllables.js"></script>
 	<script src="scripts/names/syllables_name/kenkuNameSyllables.js"></script>
 	<script src="scripts/names/syllables_name/tabaxiNameSyllables.js"></script>
 	<script src="scripts/names/syllables_name/tritonNameSyllables.js"></script>
 
-
-	<script src="scripts/names/generateFirstName.js"></script>
-	<script src="scripts/names/generateLastName.js"></script>
-	<script src="scripts/names/generateNames.js"></script>
-	<script src="scripts/names/generateRandomGender.js"></script>
-	<script src="scripts/names/generateRandomRace.js"></script>
-	<script src="scripts/names/generateRandomRegion.js"></script>
-
-	<script src="scripts/getRandomElement.js"></script>
-	<script src="scripts/interface/eventListener.js"></script>
 </body>
 
 </html>

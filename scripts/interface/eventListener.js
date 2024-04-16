@@ -42,3 +42,12 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+// Füge einen Eventlistener hinzu, der die Beschreibung aktualisiert, wenn das Volk Dropdown-Menü geändert wird
+document.addEventListener("DOMContentLoaded", function() {
+    // Rufe addRaceDescription() auf, um die Beschreibung für den Standardwert anzuzeigen
+    addRaceDescription();
+    
+    // Füge den Eventlistener hinzu, der die Beschreibung aktualisiert, wenn das Dropdown-Menü geändert wird
+    document.getElementById("raceDropdown").addEventListener("change", addRaceDescription);
+});

@@ -95,6 +95,9 @@ function generateNames() {
 					case 'Goliath':
 						race = 'Goliath';
 						break;
+					case 'Grung':
+						race = 'Grung';
+						break;
 					case 'Kenku':
 						race = 'Kenku';
 						break;
@@ -185,6 +188,7 @@ function generateNames() {
 					case 'Echsenmensch':
 					case 'Firbolg':
 					case 'Goliath':
+					case 'Grung':
 					case 'Kalashtar':
 					case 'Kenku':
 					case 'Tabaxi':

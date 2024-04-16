@@ -19,6 +19,7 @@ function generateRandomRace() {
 		'Goblin',
 		'Goliath',
 		'Grottenschrat',
+		'Grung',
 		'Hobgoblin',
 		'Kenku',
 		'Kalashtar',
