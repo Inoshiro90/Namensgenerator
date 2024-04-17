@@ -104,6 +104,9 @@ function generateNames() {
 					case 'Kalashtar':
 						race = 'Kalashtar';
 						break;
+					case 'Kriegsgeschmiedeter':
+						race = 'Kriegsgeschmiedeter';
+						break;
 					case 'Tabaxi':
 						race = 'Tabaxi';
 						break;
@@ -190,6 +193,7 @@ function generateNames() {
 					case 'Goliath':
 					case 'Grung':
 					case 'Kalashtar':
+					case 'Kriegsgeschmiedeter':
 					case 'Kenku':
 					case 'Tabaxi':
 					case 'Triton':

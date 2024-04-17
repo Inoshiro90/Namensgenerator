@@ -73,6 +73,9 @@ function generateFirstName(gender, race, region) {
 				case 'Kenku':
 					firstName = generateRandomFirstNameKenku();
 					break;
+				case 'Kriegsgeschmiedeter':
+					firstName = generateRandomFirstNameWarforged();
+					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
 					break;
@@ -155,6 +158,9 @@ function generateFirstName(gender, race, region) {
 				case 'Kenku':
 					firstName = generateRandomFirstNameKenku();
 					break;
+				case 'Kriegsgeschmiedeter':
+					firstName = generateRandomFirstNameWarforged();
+					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
 					break;
@@ -236,6 +242,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Kenku':
 					firstName = generateRandomFirstNameKenku();
+					break;
+				case 'Kriegsgeschmiedeter':
+					firstName = generateRandomFirstNameWarforged();
 					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();

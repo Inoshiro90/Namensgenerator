@@ -23,6 +23,7 @@ function generateRandomRace() {
 		'Hobgoblin',
 		'Kenku',
 		'Kalashtar',
+		'Kriegsgeschmiedeter',
 		'Tabaxi',
 		'Triton',
 	]);
