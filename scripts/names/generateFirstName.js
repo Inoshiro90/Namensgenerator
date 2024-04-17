@@ -76,6 +76,9 @@ function generateFirstName(gender, race, region) {
 				case 'Kriegsgeschmiedeter':
 					firstName = generateRandomFirstNameWarforged();
 					break;
+				case 'Leonid':
+					firstName = generateRandomFirstNameLeoninMale();
+					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
 					break;
@@ -161,6 +164,9 @@ function generateFirstName(gender, race, region) {
 				case 'Kriegsgeschmiedeter':
 					firstName = generateRandomFirstNameWarforged();
 					break;
+				case 'Leonid':
+					firstName = generateRandomFirstNameLeoninFemale();
+					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
 					break;
@@ -245,6 +251,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Kriegsgeschmiedeter':
 					firstName = generateRandomFirstNameWarforged();
+					break;
+				case 'Leonid':
+					firstName = generateRandomFirstNameLeoninNonBinary();
 					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();

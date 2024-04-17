@@ -74,6 +74,9 @@ function generateLastName(race, region, firstName) {
 		case 'Kriegsgeschmiedeter':
 			lastName = generateRandomLastNameWarforged();
 			break;
+		case 'Leonid':
+			lastName = generateRandomLastNameLeonin();
+			break;
 		case 'Tabaxi':
 			lastName = generateRandomLastNameTabaxi();
 			break;
