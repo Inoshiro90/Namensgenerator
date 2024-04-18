@@ -25,6 +25,7 @@ function generateRandomRace() {
 		'Kalashtar',
 		'Kriegsgeschmiedeter',
 		'Leonid',
+		'Loxodon',
 		'Tabaxi',
 		'Triton',
 	]);
