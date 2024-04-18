@@ -475,7 +475,7 @@ const warforgedFirstNames = [
 	'Samen',
 	'Sammler',
 	'Sanftmütig',
-	'Sängerin',
+	'Sänger',
 	'Saphir',
 	'Säule',
 	'Schaber',

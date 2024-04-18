@@ -884,7 +884,7 @@ const leoninLastNameSyllable1 = [
 	'Schnell',
 	'Schön',
 	'Sommer',
-	'Sonne',
+	'Sonnen',
 	'Stark',
 	'Stein',
 	'Sternen',
