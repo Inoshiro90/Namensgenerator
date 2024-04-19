@@ -60,7 +60,7 @@ function generateRandomFirstNameTritonNonBinary() {
 			)
 		];
 
-		firstName = syllable1 + syllable2 + syllable3 + syllable4 + syllable5;
+		firstName = syllable1 + syllable2 + syllable3 + syllable4 + 'x';
 
 		// Check for consecutive vowels
 		const currentVowel = firstName.match(/[aeiou]/gi);
