@@ -113,6 +113,9 @@ function generateNames() {
 					case 'Loxodon':
 						race = 'Loxodon';
 						break;
+					case 'Minotaurus':
+						race = 'Minotaurus';
+						break;
 					case 'Tabaxi':
 						race = 'Tabaxi';
 						break;
@@ -199,10 +202,11 @@ function generateNames() {
 					case 'Goliath':
 					case 'Grung':
 					case 'Kalashtar':
+					case 'Kenku':
 					case 'Kriegsgeschmiedeter':
 					case 'Leonid':
 					case 'Loxodon':
-					case 'Kenku':
+					case 'Minotaurus':
 					case 'Tabaxi':
 					case 'Triton':
 						region = '';

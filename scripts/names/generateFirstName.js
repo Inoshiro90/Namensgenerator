@@ -79,9 +79,12 @@ function generateFirstName(gender, race, region) {
 				case 'Leonid':
 					firstName = generateRandomFirstNameLeoninMale();
 					break;
-					case 'Loxodon':
-						firstName = generateRandomFirstNameLoxodonMale();
-						break;
+				case 'Loxodon':
+					firstName = generateRandomFirstNameLoxodonMale();
+					break;
+				case 'Minotaurus':
+					firstName = generateRandomFirstNameMinotaurMale();
+					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
 					break;
@@ -170,9 +173,12 @@ function generateFirstName(gender, race, region) {
 				case 'Leonid':
 					firstName = generateRandomFirstNameLeoninFemale();
 					break;
-					case 'Loxodon':
-						firstName = generateRandomFirstNameLoxodonFemale();
-						break;
+				case 'Loxodon':
+					firstName = generateRandomFirstNameLoxodonFemale();
+					break;
+				case 'Minotaurus':
+					firstName = generateRandomFirstNameMinotaurFemale();
+					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
 					break;
@@ -261,9 +267,12 @@ function generateFirstName(gender, race, region) {
 				case 'Leonid':
 					firstName = generateRandomFirstNameLeoninNonBinary();
 					break;
-					case 'Loxodon':
-						firstName = generateRandomFirstNameLoxodonNonBinary();
-						break;
+				case 'Loxodon':
+					firstName = generateRandomFirstNameLoxodonNonBinary();
+					break;
+				case 'Minotaurus':
+					firstName = generateRandomFirstNameMinotaurNonBinary();
+					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
 					break;
