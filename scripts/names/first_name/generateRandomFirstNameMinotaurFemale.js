@@ -50,12 +50,8 @@ function generateRandomFirstNameMinotaurFemale() {
 				Math.floor(Math.random() * minotaurFirstNameFemaleSyllable5.length)
 			];
 
-			firstName = getRandomElement([
-				syllable1 + syllable2,
-				syllable1 + syllable3,
-				syllable1 + syllable2 + syllable3,
-			]);
-
+			firstName = syllable1 + syllable2 + syllable3 + syllable4 + syllable5
+			
 		// Check for consecutive vowels
 		const currentVowel = firstName.match(/[aeiou]/gi);
 		if (currentVowel && currentVowel[0] === previousVowel) {
