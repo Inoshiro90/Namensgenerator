@@ -565,8 +565,7 @@ const minotaurLastNameSyllable2 = [
 	'nebel',
 	'pelz',
 	'pranke',
-	'reißer',
-	'reißzahn',
+	'reißer',	
 	'reiter',
 	'rufer',
 	'sänger',
@@ -598,6 +597,7 @@ const minotaurLastNameSyllable2 = [
 	'wappen',
 	'weiser',
 	'wisser',
+	'zahn',
 ];
 const minotaurLastNameSyllable3 = [''];
 const minotaurLastNameSyllable4 = [''];
