@@ -85,6 +85,9 @@ function generateFirstName(gender, race, region) {
 				case 'Minotaurus':
 					firstName = generateRandomFirstNameMinotaurMale();
 					break;
+				case 'Ork':
+					firstName = generateRandomFirstNameOrcMale();
+					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
 					break;
@@ -179,6 +182,9 @@ function generateFirstName(gender, race, region) {
 				case 'Minotaurus':
 					firstName = generateRandomFirstNameMinotaurFemale();
 					break;
+				case 'Ork':
+					firstName = generateRandomFirstNameOrcFemale();
+					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
 					break;
@@ -272,6 +278,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Minotaurus':
 					firstName = generateRandomFirstNameMinotaurNonBinary();
+					break;
+				case 'Ork':
+					firstName = generateRandomFirstNameOrcNonBinary();
 					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();

@@ -83,6 +83,9 @@ function generateLastName(race, region, firstName) {
 		case 'Minotaurus':
 			lastName = generateRandomLastNameMinotaur();
 			break;
+		case 'Ork':
+			lastName = generateRandomLastNameHalfOrc();
+			break;
 		case 'Tabaxi':
 			lastName = generateRandomLastNameTabaxi();
 			break;

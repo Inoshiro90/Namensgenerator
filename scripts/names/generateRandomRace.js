@@ -27,6 +27,7 @@ function generateRandomRace() {
 		'Leonid',
 		'Loxodon',
 		'Minotaurus',
+		'Ork',
 		'Tabaxi',
 		'Triton',
 	]);
