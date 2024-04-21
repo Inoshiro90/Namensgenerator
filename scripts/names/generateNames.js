@@ -125,6 +125,9 @@ function generateNames() {
 					case 'Triton':
 						race = 'Triton';
 						break;
+					case 'Vedalken':
+						race = 'Vedalken';
+						break;
 					default:
 						console.error('Ungültiges Volk: ' + selectedRace);
 						break;
@@ -213,6 +216,7 @@ function generateNames() {
 					case 'Ork':
 					case 'Tabaxi':
 					case 'Triton':
+					case 'Vedalken':
 						region = '';
 						break;
 					default:

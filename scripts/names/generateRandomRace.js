@@ -30,6 +30,7 @@ function generateRandomRace() {
 		'Ork',
 		'Tabaxi',
 		'Triton',
+		'Vedalken'
 	]);
 	// console.log('Zufällig ausgewähltes Volk ist ' + race)
 	return race;

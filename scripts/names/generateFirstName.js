@@ -94,6 +94,9 @@ function generateFirstName(gender, race, region) {
 				case 'Triton':
 					firstName = generateRandomFirstNameTritonMale();
 					break;
+				case 'Vedalken':
+					firstName = generateRandomFirstNameVedalkenMale();
+					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);
 			}
@@ -191,6 +194,9 @@ function generateFirstName(gender, race, region) {
 				case 'Triton':
 					firstName = generateRandomFirstNameTritonFemale();
 					break;
+				case 'Vedalken':
+					firstName = generateRandomFirstNameVedalkenFemale();
+					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);
 			}
@@ -287,6 +293,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Triton':
 					firstName = generateRandomFirstNameTritonNonBinary();
+					break;
+				case 'Vedalken':
+					firstName = generateRandomFirstNameVedalkenNonBinary();
 					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);

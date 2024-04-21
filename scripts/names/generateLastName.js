@@ -92,6 +92,9 @@ function generateLastName(race, region, firstName) {
 		case 'Triton':
 			lastName = generateRandomLastNameTriton();
 			break;
+		case 'Vedalken':
+			lastName = generateRandomLastNameVedalken();
+			break;
 		default:
 			console.error('Ungültiges Volk des Autors:', race);
 	}
