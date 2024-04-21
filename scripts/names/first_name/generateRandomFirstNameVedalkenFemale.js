@@ -30,27 +30,27 @@ function generateRandomFirstNameVedalkenFemale() {
 
 	do {
 		const syllable1 =
-		vedalkenFirstNameFemaleSyllable1[
-			Math.floor(Math.random() * vedalkenFirstNameFemaleSyllable1.length)
-		];
-	const syllable2 =
-		vedalkenFirstNameFemaleSyllable2[
-			Math.floor(Math.random() * vedalkenFirstNameFemaleSyllable2.length)
-		];
-	const syllable3 =
-		vedalkenFirstNameFemaleSyllable3[
-			Math.floor(Math.random() * vedalkenFirstNameFemaleSyllable3.length)
-		];
-	const syllable4 =
-		vedalkenFirstNameFemaleSyllable4[
-			Math.floor(Math.random() * vedalkenFirstNameFemaleSyllable4.length)
-		];
-	const syllable5 =
-		vedalkenFirstNameFemaleSyllable5[
-			Math.floor(Math.random() * vedalkenFirstNameFemaleSyllable5.length)
-		];
+			vedalkenFirstNameFemaleSyllable1[
+				Math.floor(Math.random() * vedalkenFirstNameFemaleSyllable1.length)
+			];
+		const syllable2 =
+			vedalkenFirstNameFemaleSyllable2[
+				Math.floor(Math.random() * vedalkenFirstNameFemaleSyllable2.length)
+			];
+		const syllable3 =
+			vedalkenFirstNameFemaleSyllable3[
+				Math.floor(Math.random() * vedalkenFirstNameFemaleSyllable3.length)
+			];
+		const syllable4 =
+			vedalkenFirstNameFemaleSyllable4[
+				Math.floor(Math.random() * vedalkenFirstNameFemaleSyllable4.length)
+			];
+		const syllable5 =
+			vedalkenFirstNameFemaleSyllable5[
+				Math.floor(Math.random() * vedalkenFirstNameFemaleSyllable5.length)
+			];
 
-			firstName = syllable1 + syllable2 + syllable3 + syllable4 + syllable5;
+		firstName = syllable1 + syllable2 + syllable3 + syllable4 + syllable5;
 
 		// Check for consecutive vowels
 		const currentVowel = firstName.match(/[aeiou]/gi);
@@ -83,6 +83,18 @@ function generateRandomFirstNameVedalkenFemale() {
 		consecutiveConsonants ||
 		consecutiveXZQ
 	);
+
+	// Define the list of letters that should not appear twice in a row
+	const nonRepeatingLetters = ['j', 'v', 'w'];
+
+	// Construct the regular expression dynamically to take into account the letters in the list
+	const nonRepeatingRegex = new RegExp(
+		`([^aeiou${nonRepeatingLetters.join('|')}])\\1{2,}|${nonRepeatingLetters.join('|')}{2}`,
+		'gi'
+	);
+
+	// Reduce the consecutive consonants to two, except for the letters in the nonRepeatingLetters list
+	firstName = firstName.replace(nonRepeatingRegex, '$1$1');
 
 	return firstName.charAt(0).toUpperCase() + firstName.slice(1);
 }
