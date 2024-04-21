@@ -28,6 +28,7 @@ function generateRandomRace() {
 		'Loxodon',
 		'Minotaurus',
 		'Ork',
+		'Simic-Hybrid',
 		'Tabaxi',
 		'Triton',
 		'Vedalken'

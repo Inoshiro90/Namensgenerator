@@ -119,6 +119,9 @@ function generateNames() {
 					case 'Ork':
 						race = 'Ork';
 						break;
+					case 'Simic-Hybrid':
+						race = 'Simic-Hybrid';
+						break;
 					case 'Tabaxi':
 						race = 'Tabaxi';
 						break;
@@ -214,6 +217,7 @@ function generateNames() {
 					case 'Loxodon':
 					case 'Minotaurus':
 					case 'Ork':
+					case 'Simic-Hybrid':
 					case 'Tabaxi':
 					case 'Triton':
 					case 'Vedalken':

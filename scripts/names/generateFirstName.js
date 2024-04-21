@@ -88,6 +88,12 @@ function generateFirstName(gender, race, region) {
 				case 'Ork':
 					firstName = generateRandomFirstNameOrcMale();
 					break;
+				case 'Simic-Hybrid':
+					firstName = getRandomElement([
+						generateRandomFirstNameElfMale(),
+						generateRandomFirstNameVedalkenMale(),
+					]);
+					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
 					break;
@@ -188,6 +194,12 @@ function generateFirstName(gender, race, region) {
 				case 'Ork':
 					firstName = generateRandomFirstNameOrcFemale();
 					break;
+				case 'Simic-Hybrid':
+					firstName = getRandomElement([
+						generateRandomFirstNameElfFemale(),
+						generateRandomFirstNameVedalkenFemale(),
+					]);
+					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
 					break;
@@ -287,6 +299,12 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Ork':
 					firstName = generateRandomFirstNameOrcNonBinary();
+					break;
+				case 'Simic-Hybrid':
+					firstName = getRandomElement([
+						generateRandomFirstNameElfNonBinary(),
+						generateRandomFirstNameVedalkenNonBinary(),
+					]);
 					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();

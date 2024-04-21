@@ -86,6 +86,12 @@ function generateLastName(race, region, firstName) {
 		case 'Ork':
 			lastName = generateRandomLastNameHalfOrc();
 			break;
+		case 'Simic-Hybrid':
+			lastName = getRandomElement([
+				generateRandomLastNameElf(),
+				generateRandomLastNameVedalken(),
+			]);
+			break;
 		case 'Tabaxi':
 			lastName = generateRandomLastNameTabaxi();
 			break;
