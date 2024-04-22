@@ -10,6 +10,12 @@ function generateFirstName(gender, race, region) {
 					firstName = generateRandomFirstNameDwarfMale();
 					break;
 				case 'Elf':
+				case 'Astralelf':
+				case 'Blasself':
+				case 'Drow':
+				case 'Eladrin':
+				case 'Meereself':
+				case 'Schadar-Kai':
 					firstName = generateRandomFirstNameElfMale();
 					break;
 				case 'Halbling':
@@ -119,6 +125,12 @@ function generateFirstName(gender, race, region) {
 					firstName = generateRandomFirstNameDwarfFemale();
 					break;
 				case 'Elf':
+				case 'Astralelf':
+				case 'Blasself':
+				case 'Drow':
+				case 'Eladrin':
+				case 'Meereself':
+				case 'Schadar-Kai':
 					firstName = generateRandomFirstNameElfFemale();
 					break;
 				case 'Halbling':
@@ -228,6 +240,12 @@ function generateFirstName(gender, race, region) {
 					firstName = generateRandomFirstNameDwarfNonBinary();
 					break;
 				case 'Elf':
+				case 'Astralelf':
+				case 'Blasself':
+				case 'Drow':
+				case 'Eladrin':
+				case 'Meereself':
+				case 'Schadar-Kai':
 					firstName = generateRandomFirstNameElfNonBinary();
 					break;
 				case 'Halbling':

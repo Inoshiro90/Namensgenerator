@@ -68,8 +68,20 @@ function generateNames() {
 					case 'Aarakocra':
 						race = 'Aarakocra';
 						break;
+					case 'Astralelf':
+						race = 'Astralelf';
+						break;
+					case 'Blasself':
+						race = 'Blasself';
+						break;
 					case 'Duergar':
 						race = 'Duergar';
+						break;
+					case 'Drow':
+						race = 'Drow';
+						break;
+					case 'Eladrin':
+						race = 'Eladrin';
 						break;
 					case 'Githyanki':
 						race = 'Githyanki';
@@ -119,8 +131,14 @@ function generateNames() {
 					case 'Minotaurus':
 						race = 'Minotaurus';
 						break;
+					case 'Meereself':
+						race = 'Meereself';
+						break;
 					case 'Ork':
 						race = 'Ork';
+						break;
+					case 'Schadar-Kai':
+						race = 'Schadar-Kai';
 						break;
 					case 'Simic-Hybrid':
 						race = 'Simic-Hybrid';
@@ -203,7 +221,11 @@ function generateNames() {
 					case 'Halbork':
 					case 'Drachenblütiger':
 					case 'Aarakocra':
+					case 'Astralelf':
+					case 'Blasself':
 					case 'Duergar':
+					case 'Drow':
+					case 'Eladrin':
 					case 'Githyanki':
 					case 'Githzerai':
 					case 'Goblin':
@@ -219,8 +241,10 @@ function generateNames() {
 					case 'Kriegsgeschmiedeter':
 					case 'Leonid':
 					case 'Loxodon':
+					case 'Meereself':
 					case 'Minotaurus':
 					case 'Ork':
+					case 'Schadar-Kai':
 					case 'Simic-Hybrid':
 					case 'Tabaxi':
 					case 'Triton':

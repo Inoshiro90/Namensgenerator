@@ -8,6 +8,12 @@ function generateLastName(race, region, firstName) {
 			lastName = generateRandomLastNameDwarf();
 			break;
 		case 'Elf':
+		case 'Astralelf':
+		case 'Blasself':
+		case 'Drow':
+		case 'Eladrin':
+		case 'Meereself':
+		case 'Schadar-Kai':
 			lastName = generateRandomLastNameElf();
 			break;
 		case 'Halbling':
