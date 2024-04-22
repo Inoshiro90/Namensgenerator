@@ -67,6 +67,9 @@ function generateFirstName(gender, race, region) {
 				case 'Grung':
 					firstName = generateRandomFirstNameGrung();
 					break;
+				case 'Harengon':
+					firstName = generateRandomFirstNameHarengon();
+					break;
 				case 'Kalashtar':
 					firstName = generateRandomFirstNameKalashtar();
 					break;
@@ -173,6 +176,9 @@ function generateFirstName(gender, race, region) {
 				case 'Grung':
 					firstName = generateRandomFirstNameGrung();
 					break;
+				case 'Harengon':
+					firstName = generateRandomFirstNameHarengon();
+					break;
 				case 'Kalashtar':
 					firstName = generateRandomFirstNameKalashtar();
 					break;
@@ -278,6 +284,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Grung':
 					firstName = generateRandomFirstNameGrung();
+					break;
+				case 'Harengon':
+					firstName = generateRandomFirstNameHarengon();
 					break;
 				case 'Kalashtar':
 					firstName = generateRandomFirstNameKalashtar();

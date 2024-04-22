@@ -83,6 +83,9 @@ function generateNames() {
 					case 'Grottenschrat':
 						race = 'Grottenschrat';
 						break;
+					case 'Harengon':
+						race = 'Harengon';
+						break;
 					case 'Hobgoblin':
 						race = 'Hobgoblin';
 						break;
@@ -210,6 +213,7 @@ function generateNames() {
 					case 'Firbolg':
 					case 'Goliath':
 					case 'Grung':
+					case 'Harengon':
 					case 'Kalashtar':
 					case 'Kenku':
 					case 'Kriegsgeschmiedeter':
