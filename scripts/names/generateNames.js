@@ -146,6 +146,9 @@ function generateNames() {
 					case 'Tabaxi':
 						race = 'Tabaxi';
 						break;
+					case 'Tiefengnom':
+						race = 'Tiefengnom';
+						break;
 					case 'Triton':
 						race = 'Triton';
 						break;
@@ -247,6 +250,7 @@ function generateNames() {
 					case 'Schadar-Kai':
 					case 'Simic-Hybrid':
 					case 'Tabaxi':
+					case 'Tiefengnom':
 					case 'Triton':
 					case 'Vedalken':
 						region = '';

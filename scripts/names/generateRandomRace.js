@@ -37,6 +37,7 @@ function generateRandomRace() {
 		'Schadar-Kai',
 		'Simic-Hybrid',
 		'Tabaxi',
+		'Tiefengnom',
 		'Triton',
 		'Vedalken'
 	]);
