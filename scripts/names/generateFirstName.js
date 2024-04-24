@@ -14,6 +14,7 @@ function generateFirstName(gender, race, region) {
 				case 'Blasself':
 				case 'Drow':
 				case 'Eladrin':
+				case 'Fee':
 				case 'Meereself':
 				case 'Schadar-Kai':
 					firstName = generateRandomFirstNameElfMale();
@@ -130,6 +131,7 @@ function generateFirstName(gender, race, region) {
 				case 'Elf':
 				case 'Astralelf':
 				case 'Blasself':
+				case 'Fee':
 				case 'Drow':
 				case 'Eladrin':
 				case 'Meereself':
@@ -250,6 +252,7 @@ function generateFirstName(gender, race, region) {
 				case 'Blasself':
 				case 'Drow':
 				case 'Eladrin':
+				case 'Fee':
 				case 'Meereself':
 				case 'Schadar-Kai':
 					firstName = generateRandomFirstNameElfNonBinary();

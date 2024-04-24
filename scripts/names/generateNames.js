@@ -83,6 +83,9 @@ function generateNames() {
 					case 'Eladrin':
 						race = 'Eladrin';
 						break;
+					case 'Fee':
+						race = 'Fee';
+						break;
 					case 'Githyanki':
 						race = 'Githyanki';
 						break;
@@ -235,6 +238,7 @@ function generateNames() {
 					case 'Grottenschrat':
 					case 'Hobgoblin':
 					case 'Echsenmensch':
+					case 'Fee':
 					case 'Firbolg':
 					case 'Goliath':
 					case 'Grung':

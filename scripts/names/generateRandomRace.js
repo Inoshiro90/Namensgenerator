@@ -17,6 +17,7 @@ function generateRandomRace() {
 		'Drow',
 		'Echsenmensch',
 		'Eladrin',
+		'Fee',
 		'Firbolg',
 		'Githyanki',
 		'Githzerai',
