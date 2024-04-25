@@ -86,6 +86,18 @@ function generateNames() {
 					case 'Fee':
 						race = 'Fee';
 						break;
+					case 'Luftgenasi':
+						race = 'Luftgenasi';
+						break;
+					case 'Erdgenasi':
+						race = 'Erdgenasi';
+						break;
+					case 'Feuergenasi':
+						race = 'Feuergenasi';
+						break;
+					case 'Wassergenasi':
+						race = 'Wassergenasi';
+						break;
 					case 'Githyanki':
 						race = 'Githyanki';
 						break;
@@ -240,6 +252,10 @@ function generateNames() {
 					case 'Echsenmensch':
 					case 'Fee':
 					case 'Firbolg':
+					case 'Luftgenasi':
+					case 'Wassergenasi':
+					case 'Feuergenasi':
+					case 'Erdgenasi':
 					case 'Goliath':
 					case 'Grung':
 					case 'Harengon':

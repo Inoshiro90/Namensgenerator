@@ -57,6 +57,18 @@ function generateFirstName(gender, race, region) {
 				case 'Firbolg':
 					firstName = generateRandomFirstNameElfMale();
 					break;
+				case 'Luftgenasi':
+					firstName = generateRandomFirstNameGenasiAirMale();
+					break;
+				case 'Erdgenasi':
+					firstName = generateRandomFirstNameGenasiEarthMale();
+					break;
+				case 'Feuergenasi':
+					firstName = generateRandomFirstNameGenasiFireMale();
+					break;
+				case 'Wassergenasi':
+					firstName = generateRandomFirstNameGenasiWaterMale();
+					break;
 				case 'Githyanki':
 					firstName = generateRandomFirstNameGithyankiMale();
 					break;
@@ -172,6 +184,18 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Firbolg':
 					firstName = generateRandomFirstNameElfFemale();
+					break;
+				case 'Luftgenasi':
+					firstName = generateRandomFirstNameGenasiAirFemale();
+					break;
+				case 'Erdgenasi':
+					firstName = generateRandomFirstNameGenasiEarthFemale();
+					break;
+				case 'Feuergenasi':
+					firstName = generateRandomFirstNameGenasiFireFemale();
+					break;
+				case 'Wassergenasi':
+					firstName = generateRandomFirstNameGenasiWaterFemale();
 					break;
 				case 'Echsenmensch':
 					firstName = generateRandomFirstNameLizardfolk();
@@ -294,6 +318,18 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Echsenmensch':
 					firstName = generateRandomFirstNameLizardfolk();
+					break;
+				case 'Luftgenasi':
+					firstName = generateRandomFirstNameGenasiAirNonBinary();
+					break;
+				case 'Erdgenasi':
+					firstName = generateRandomFirstNameGenasiEarthNonBinary();
+					break;
+				case 'Feuergenasi':
+					firstName = generateRandomFirstNameGenasiFireNonBinary();
+					break;
+				case 'Wassergenasi':
+					firstName = generateRandomFirstNameGenasiWaterNonBinary();
 					break;
 				case 'Githyanki':
 					firstName = generateRandomFirstNameGithyankiNonBinary();

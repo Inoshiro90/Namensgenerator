@@ -19,6 +19,10 @@ function generateRandomRace() {
 		'Eladrin',
 		'Fee',
 		'Firbolg',
+		'Feuergenasi',
+		'Erdgenasi',
+		'Wassergenasi',
+		'Luftgenasi',
 		'Githyanki',
 		'Githzerai',
 		'Goblin',
@@ -40,7 +44,7 @@ function generateRandomRace() {
 		'Tabaxi',
 		'Tiefengnom',
 		'Triton',
-		'Vedalken'
+		'Vedalken',
 	]);
 	// console.log('Zufällig ausgewähltes Volk ist ' + race)
 	return race;
