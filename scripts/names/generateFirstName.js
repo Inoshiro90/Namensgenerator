@@ -69,6 +69,9 @@ function generateFirstName(gender, race, region) {
 				case 'Wassergenasi':
 					firstName = generateRandomFirstNameGenasiWaterMale();
 					break;
+				case 'Giff':
+					firstName = generateRandomFirstNameGiffMale();
+					break;
 				case 'Githyanki':
 					firstName = generateRandomFirstNameGithyankiMale();
 					break;
@@ -200,6 +203,9 @@ function generateFirstName(gender, race, region) {
 				case 'Echsenmensch':
 					firstName = generateRandomFirstNameLizardfolk();
 					break;
+				case 'Giff':
+					firstName = generateRandomFirstNameGiffFemale();
+					break;
 				case 'Githyanki':
 					firstName = generateRandomFirstNameGithyankiFemale();
 					break;
@@ -330,6 +336,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Wassergenasi':
 					firstName = generateRandomFirstNameGenasiWaterNonBinary();
+					break;
+				case 'Giff':
+					firstName = generateRandomFirstNameGiffNonBinary();
 					break;
 				case 'Githyanki':
 					firstName = generateRandomFirstNameGithyankiNonBinary();

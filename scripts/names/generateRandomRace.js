@@ -23,6 +23,7 @@ function generateRandomRace() {
 		'Erdgenasi',
 		'Wassergenasi',
 		'Luftgenasi',
+		'Giff',
 		'Githyanki',
 		'Githzerai',
 		'Goblin',

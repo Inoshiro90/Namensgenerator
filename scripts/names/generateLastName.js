@@ -86,6 +86,9 @@ function generateLastName(race, region, firstName) {
 		case 'Wassergenasi':
 			lastName = generateRandomLastNameGenasiWater();
 			break;
+		case 'Giff':
+			lastName = generateRandomLastNameGiff();
+			break;
 		case 'Goliath':
 			lastName = generateRandomLastNameGoliath();
 			break;
