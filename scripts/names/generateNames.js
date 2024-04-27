@@ -113,6 +113,9 @@ function generateNames() {
 					case 'Grottenschrat':
 						race = 'Grottenschrat';
 						break;
+					case 'Hadozee':
+						race = 'Hadozee';
+						break;
 					case 'Harengon':
 						race = 'Harengon';
 						break;
@@ -262,6 +265,7 @@ function generateNames() {
 					case 'Giff':
 					case 'Goliath':
 					case 'Grung':
+					case 'Hadozee':
 					case 'Harengon':
 					case 'Kalashtar':
 					case 'Kenku':
@@ -307,7 +311,7 @@ function generateNames() {
 
 			// Generate first and last name
 			let firstName = generateFirstName(gender, race, region);
-			let lastName = generateLastName(race, region, firstName);
+			let lastName = generateLastName(gender, race, region, firstName);
 
 			// Hinzufügen des generierten Namens zum Array
 			generatedNames.push(firstName + ' ' + lastName);

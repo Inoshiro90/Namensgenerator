@@ -30,6 +30,7 @@ function generateRandomRace() {
 		'Goliath',
 		'Grottenschrat',
 		'Grung',
+		'Hadozee',
 		'Harengon',
 		'Hobgoblin',
 		'Kenku',
