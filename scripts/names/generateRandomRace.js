@@ -33,6 +33,7 @@ function generateRandomRace() {
 		'Hadozee',
 		'Harengon',
 		'Hobgoblin',
+		'Kender',
 		'Kenku',
 		'Kalashtar',
 		'Kriegsgeschmiedeter',

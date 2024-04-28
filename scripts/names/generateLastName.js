@@ -98,6 +98,9 @@ function generateLastName(gender, race, region, firstName) {
 		case 'Kalashtar':
 			lastName = generateRandomLastNameKalashtar(firstName);
 			break;
+		case 'Kender':
+			lastName = generateRandomLastNameKender();
+			break;
 		case 'Kenku':
 			lastName = generateRandomLastNameKenku();
 			break;

@@ -134,6 +134,9 @@ function generateNames() {
 					case 'Grung':
 						race = 'Grung';
 						break;
+					case 'Kender':
+						race = 'Kender';
+						break;
 					case 'Kenku':
 						race = 'Kenku';
 						break;
@@ -268,6 +271,7 @@ function generateNames() {
 					case 'Hadozee':
 					case 'Harengon':
 					case 'Kalashtar':
+					case 'Kender':
 					case 'Kenku':
 					case 'Kriegsgeschmiedeter':
 					case 'Leonid':
