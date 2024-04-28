@@ -107,6 +107,9 @@ function generateFirstName(gender, race, region) {
 				case 'Kriegsgeschmiedeter':
 					firstName = generateRandomFirstNameWarforged();
 					break;
+				case 'Kobold':
+					firstName = generateRandomFirstNameKobold();
+					break;
 				case 'Leonid':
 					firstName = generateRandomFirstNameLeoninMale();
 					break;
@@ -243,6 +246,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Kenku':
 					firstName = generateRandomFirstNameKenku();
+					break;
+				case 'Kobold':
+					firstName = generateRandomFirstNameKobold();
 					break;
 				case 'Kriegsgeschmiedeter':
 					firstName = generateRandomFirstNameWarforged();
@@ -386,6 +392,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Kriegsgeschmiedeter':
 					firstName = generateRandomFirstNameWarforged();
+					break;
+				case 'Kobold':
+					firstName = generateRandomFirstNameKobold();
 					break;
 				case 'Leonid':
 					firstName = generateRandomFirstNameLeoninNonBinary();

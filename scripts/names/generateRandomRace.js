@@ -35,6 +35,7 @@ function generateRandomRace() {
 		'Hobgoblin',
 		'Kender',
 		'Kenku',
+		'Kobold',
 		'Kalashtar',
 		'Kriegsgeschmiedeter',
 		'Leonid',
