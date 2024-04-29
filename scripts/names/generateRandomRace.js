@@ -39,6 +39,7 @@ function generateRandomRace() {
 		'Kalashtar',
 		'Kriegsgeschmiedeter',
 		'Leonid',
+		'Locathah',
 		'Loxodon',
 		'Meereself',
 		'Minotaurus',

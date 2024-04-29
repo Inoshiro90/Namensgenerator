@@ -113,6 +113,9 @@ function generateLastName(gender, race, region, firstName) {
 		case 'Leonid':
 			lastName = generateRandomLastNameLeonin();
 			break;
+		case 'Locathah':
+			lastName = generateRandomLastNameLocathah();
+			break;
 		case 'Loxodon':
 			lastName = generateRandomLastNameLoxodon();
 			break;

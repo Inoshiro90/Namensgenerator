@@ -152,6 +152,9 @@ function generateNames() {
 					case 'Leonid':
 						race = 'Leonid';
 						break;
+					case 'Locathah':
+						race = 'Locathah';
+						break;
 					case 'Loxodon':
 						race = 'Loxodon';
 						break;
@@ -279,6 +282,7 @@ function generateNames() {
 					case 'Kobold':
 					case 'Kriegsgeschmiedeter':
 					case 'Leonid':
+					case 'Locathah':
 					case 'Loxodon':
 					case 'Meereself':
 					case 'Minotaurus':
