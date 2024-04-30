@@ -182,6 +182,9 @@ function generateNames() {
 					case 'Tabaxi':
 						race = 'Tabaxi';
 						break;
+					case 'Thri-Kreen':
+						race = 'Thri-Kreen';
+						break;
 					case 'Tiefengnom':
 						race = 'Tiefengnom';
 						break;
@@ -298,6 +301,7 @@ function generateNames() {
 					case 'Schadar-Kai':
 					case 'Simic-Hybrid':
 					case 'Tabaxi':
+					case 'Thri-Kreen':
 					case 'Tiefengnom':
 					case 'Triton':
 					case 'Vedalken':

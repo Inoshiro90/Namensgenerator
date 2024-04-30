@@ -140,6 +140,9 @@ function generateFirstName(gender, race, region) {
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
 					break;
+				case 'Thri-Kreen':
+					firstName = generateRandomFirstNameThriKreen();
+					break;
 				case 'Tiefengnom':
 					firstName = generateRandomFirstNameDeepGnomeMale();
 					break;
@@ -292,6 +295,9 @@ function generateFirstName(gender, race, region) {
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
 					break;
+				case 'Thri-Kreen':
+					firstName = generateRandomFirstNameThriKreen();
+					break;
 				case 'Tiefengnom':
 					firstName = generateRandomFirstNameDeepGnomeFemale();
 					break;
@@ -443,6 +449,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Tabaxi':
 					firstName = generateRandomFirstNameTabaxi();
+					break;
+				case 'Thri-Kreen':
+					firstName = generateRandomFirstNameThriKreen();
 					break;
 				case 'Tiefengnom':
 					firstName = generateRandomFirstNameDeepGnomeNonBinary();

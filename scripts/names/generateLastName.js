@@ -140,6 +140,9 @@ function generateLastName(gender, race, region, firstName) {
 		case 'Tabaxi':
 			lastName = generateRandomLastNameTabaxi();
 			break;
+		case 'Thri-Kreen':
+			lastName = generateRandomLastNameThriKreen();
+			break;
 		case 'Tiefengnom':
 			lastName = generateRandomLastNameDeepGnome();
 			break;
