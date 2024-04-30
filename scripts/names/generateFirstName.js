@@ -128,6 +128,9 @@ function generateFirstName(gender, race, region) {
 				case 'Plasmoider':
 					firstName = generateRandomFirstNamePlasmoid();
 					break;
+				case 'Satyr':
+					firstName = generateRandomFirstNameSatyrMale();
+					break;
 				case 'Simic-Hybrid':
 					firstName = getRandomElement([
 						generateRandomFirstNameElfMale(),
@@ -277,6 +280,9 @@ function generateFirstName(gender, race, region) {
 				case 'Plasmoider':
 					firstName = generateRandomFirstNamePlasmoid();
 					break;
+				case 'Satyr':
+					firstName = generateRandomFirstNameSatyrFemale();
+					break;
 				case 'Simic-Hybrid':
 					firstName = getRandomElement([
 						generateRandomFirstNameElfFemale(),
@@ -425,6 +431,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Plasmoider':
 					firstName = generateRandomFirstNamePlasmoid();
+					break;
+				case 'Satyr':
+					firstName = generateRandomFirstNameSatyrNonBinary();
 					break;
 				case 'Simic-Hybrid':
 					firstName = getRandomElement([

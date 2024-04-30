@@ -45,6 +45,7 @@ function generateRandomRace() {
 		'Minotaurus',
 		'Ork',
 		'Plasmoider',
+		'Satyr',
 		'Schadar-Kai',
 		'Simic-Hybrid',
 		'Tabaxi',

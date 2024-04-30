@@ -170,6 +170,9 @@ function generateNames() {
 					case 'Plasmoider':
 						race = 'Plasmoider';
 						break;
+					case 'Satyr':
+						race = 'Satyr';
+						break;
 					case 'Schadar-Kai':
 						race = 'Schadar-Kai';
 						break;
@@ -291,6 +294,7 @@ function generateNames() {
 					case 'Minotaurus':
 					case 'Ork':
 					case 'Plasmoider':
+					case 'Satyr':
 					case 'Schadar-Kai':
 					case 'Simic-Hybrid':
 					case 'Tabaxi':
