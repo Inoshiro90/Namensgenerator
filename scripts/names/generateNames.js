@@ -194,6 +194,9 @@ function generateNames() {
 					case 'Triton':
 						race = 'Triton';
 						break;
+					case 'Uhle':
+						race = 'Uhle';
+						break;
 					case 'Vedalken':
 						race = 'Vedalken';
 						break;
@@ -308,6 +311,7 @@ function generateNames() {
 					case 'Tiefengnom':
 					case 'Tortle':
 					case 'Triton':
+					case 'Uhle':
 					case 'Vedalken':
 						region = '';
 						break;

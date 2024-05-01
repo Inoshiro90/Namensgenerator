@@ -152,6 +152,9 @@ function generateFirstName(gender, race, region) {
 				case 'Triton':
 					firstName = generateRandomFirstNameTritonMale();
 					break;
+				case 'Uhle':
+					firstName = generateRandomFirstNameHumanMaleIndian();
+					break;
 				case 'Vedalken':
 					firstName = generateRandomFirstNameVedalkenMale();
 					break;
@@ -310,6 +313,9 @@ function generateFirstName(gender, race, region) {
 				case 'Triton':
 					firstName = generateRandomFirstNameTritonFemale();
 					break;
+				case 'Uhle':
+					firstName = generateRandomFirstNameHumanFemaleIndian();
+					break;
 				case 'Vedalken':
 					firstName = generateRandomFirstNameVedalkenFemale();
 					break;
@@ -467,6 +473,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Triton':
 					firstName = generateRandomFirstNameTritonNonBinary();
+					break;
+				case 'Uhle':
+					firstName = generateRandomFirstNameHumanNonBinaryIndian();
 					break;
 				case 'Vedalken':
 					firstName = generateRandomFirstNameVedalkenNonBinary();
