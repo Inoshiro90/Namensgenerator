@@ -54,6 +54,7 @@ function generateRandomRace() {
 		'Tortle',
 		'Triton',
 		'Vedalken',
+		'Verdan',
 	]);
 	// console.log('Zufällig ausgewähltes Volk ist ' + race)
 	return race;

@@ -158,6 +158,9 @@ function generateFirstName(gender, race, region) {
 				case 'Vedalken':
 					firstName = generateRandomFirstNameVedalkenMale();
 					break;
+				case 'Verdan':
+					firstName = generateRandomFirstNameVerdan();
+					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);
 			}
@@ -319,6 +322,9 @@ function generateFirstName(gender, race, region) {
 				case 'Vedalken':
 					firstName = generateRandomFirstNameVedalkenFemale();
 					break;
+				case 'Verdan':
+					firstName = generateRandomFirstNameVerdan();
+					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);
 			}
@@ -479,6 +485,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Vedalken':
 					firstName = generateRandomFirstNameVedalkenNonBinary();
+					break;
+				case 'Verdan':
+					firstName = generateRandomFirstNameVerdan();
 					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);

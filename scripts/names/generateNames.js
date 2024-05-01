@@ -200,6 +200,9 @@ function generateNames() {
 					case 'Vedalken':
 						race = 'Vedalken';
 						break;
+					case 'Verdan':
+						race = 'Verdan';
+						break;
 					default:
 						console.error('Ungültiges Volk: ' + selectedRace);
 						break;
@@ -313,6 +316,7 @@ function generateNames() {
 					case 'Triton':
 					case 'Uhle':
 					case 'Vedalken':
+					case 'Verdan':
 						region = '';
 						break;
 					default:
