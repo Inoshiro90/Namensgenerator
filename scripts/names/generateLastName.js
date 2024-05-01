@@ -146,6 +146,9 @@ function generateLastName(gender, race, region, firstName) {
 		case 'Tiefengnom':
 			lastName = generateRandomLastNameDeepGnome();
 			break;
+		case 'Tortle':
+			lastName = generateRandomLastNameTortle();
+			break;
 		case 'Triton':
 			lastName = generateRandomLastNameTriton();
 			break;

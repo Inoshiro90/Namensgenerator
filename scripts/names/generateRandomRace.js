@@ -51,6 +51,7 @@ function generateRandomRace() {
 		'Tabaxi',
 		'Thri-Kreen',
 		'Tiefengnom',
+		'Tortle',
 		'Triton',
 		'Vedalken',
 	]);

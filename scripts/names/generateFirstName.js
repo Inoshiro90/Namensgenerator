@@ -146,6 +146,9 @@ function generateFirstName(gender, race, region) {
 				case 'Tiefengnom':
 					firstName = generateRandomFirstNameDeepGnomeMale();
 					break;
+				case 'Tortle':
+					firstName = generateRandomFirstNameTortle();
+					break;
 				case 'Triton':
 					firstName = generateRandomFirstNameTritonMale();
 					break;
@@ -301,6 +304,9 @@ function generateFirstName(gender, race, region) {
 				case 'Tiefengnom':
 					firstName = generateRandomFirstNameDeepGnomeFemale();
 					break;
+				case 'Tortle':
+					firstName = generateRandomFirstNameTortle();
+					break;
 				case 'Triton':
 					firstName = generateRandomFirstNameTritonFemale();
 					break;
@@ -455,6 +461,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Tiefengnom':
 					firstName = generateRandomFirstNameDeepGnomeNonBinary();
+					break;
+				case 'Tortle':
+					firstName = generateRandomFirstNameTortle();
 					break;
 				case 'Triton':
 					firstName = generateRandomFirstNameTritonNonBinary();
