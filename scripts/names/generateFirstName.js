@@ -164,6 +164,9 @@ function generateFirstName(gender, race, region) {
 				case 'Wandler':
 					firstName = generateRandomFirstNameShifter();
 					break;
+				case 'Wechselbalg':
+					firstName = generateRandomFirstNameChangeling();
+					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);
 			}
@@ -331,6 +334,9 @@ function generateFirstName(gender, race, region) {
 				case 'Wandler':
 					firstName = generateRandomFirstNameShifter();
 					break;
+				case 'Wechselbalg':
+					firstName = generateRandomFirstNameChangeling();
+					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);
 			}
@@ -497,6 +503,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Wandler':
 					firstName = generateRandomFirstNameShifter();
+					break;
+				case 'Wechselbalg':
+					firstName = generateRandomFirstNameChangeling();
 					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);

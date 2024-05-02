@@ -56,6 +56,7 @@ function generateRandomRace() {
 		'Vedalken',
 		'Verdan',
 		'Wandler',
+		'Wechselbalg',
 	]);
 	// console.log('Zufällig ausgewähltes Volk ist ' + race)
 	return race;

@@ -206,6 +206,9 @@ function generateNames() {
 					case 'Wandler':
 						race = 'Wandler';
 						break;
+					case 'Wechselbalg':
+						race = 'Wechselbalg';
+						break;
 					default:
 						console.error('Ungültiges Volk: ' + selectedRace);
 						break;
@@ -321,6 +324,7 @@ function generateNames() {
 					case 'Vedalken':
 					case 'Verdan':
 					case 'Wandler':
+					case 'Wechselbalg':
 						region = '';
 						break;
 					default:
