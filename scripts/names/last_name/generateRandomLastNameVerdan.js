@@ -41,12 +41,12 @@ function generateRandomLastNameVerdan() {
 			verdanFirstNameSyllable5[Math.floor(Math.random() * verdanFirstNameSyllable5.length)];
 
 		const randomNumber = Math.random();
-		if (randomNumber < 0.6) {
-			lastName = syllable1;
-		} else if (randomNumber < 0.8) {
-			lastName = syllable2 + syllable3;
+		if (randomNumber < 0.4) {
+			lastName = syllable3;
+		} else if (randomNumber < 0.7) {
+			lastName = syllable1 + syllable3;
 		} else {
-			lastName = syllable2 + syllable4 + syllable5;
+			lastName = syllable1 + syllable3 + syllable5;
 		}
 
 		// Check for consecutive vowels
@@ -80,6 +80,18 @@ function generateRandomLastNameVerdan() {
 		consecutiveConsonants ||
 		consecutiveXZQ
 	);
+
+	// Define the list of letters that should not appear twice in a row
+	const nonRepeatingLetters = ['j', 'v', 'w'];
+
+	// Construct the regular expression dynamically to take into account the letters in the list
+	const nonRepeatingRegex = new RegExp(
+		`([^aeiou${nonRepeatingLetters.join('|')}])\\1{2,}|${nonRepeatingLetters.join('|')}{2}`,
+		'gi'
+	);
+
+	// Reduce the consecutive consonants to two, except for the letters in the nonRepeatingLetters list
+	lastName = lastName.replace(nonRepeatingRegex, '$1$1');
 
 	// console.log(lastName)
 	return lastName.charAt(0).toUpperCase() + lastName.slice(1);

@@ -80,6 +80,19 @@ function generateRandomFirstNameVerdan() {
 		consecutiveConsonants ||
 		consecutiveXZQ
 	);
+
+	// Define the list of letters that should not appear twice in a row
+	const nonRepeatingLetters = ['j', 'v', 'w'];
+
+	// Construct the regular expression dynamically to take into account the letters in the list
+	const nonRepeatingRegex = new RegExp(
+		`([^aeiou${nonRepeatingLetters.join('|')}])\\1{2,}|${nonRepeatingLetters.join('|')}{2}`,
+		'gi'
+	);
+
+	// Reduce the consecutive consonants to two, except for the letters in the nonRepeatingLetters list
+	firstName = firstName.replace(nonRepeatingRegex, '$1$1');
+
 	// console.log(lastName)
 	return firstName.charAt(0).toUpperCase() + firstName.slice(1);
 }
