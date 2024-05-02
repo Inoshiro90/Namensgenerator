@@ -202,6 +202,7 @@ function generateNames() {
 						break;
 					case 'Verdan':
 						race = 'Verdan';
+						break;
 					case 'Wandler':
 						race = 'Wandler';
 						break;
