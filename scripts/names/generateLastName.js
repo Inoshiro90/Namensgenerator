@@ -161,6 +161,9 @@ function generateLastName(gender, race, region, firstName) {
 		case 'Verdan':
 			lastName = generateRandomLastNameVerdan();
 			break;
+		case 'Wandler':
+			lastName = generateRandomLastNameShifter();
+			break;
 		default:
 			console.error('Ungültiges Volk des Autors:', race);
 	}
