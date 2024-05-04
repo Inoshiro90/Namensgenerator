@@ -167,6 +167,9 @@ function generateLastName(gender, race, region, firstName) {
 		case 'Wechselbalg':
 			lastName = generateRandomLastNameChangeling();
 			break;
+		case 'Yuan-Ti':
+			lastName = generateRandomLastNameYuanTi();
+			break;
 		default:
 			console.error('Ungültiges Volk des Autors:', race);
 	}

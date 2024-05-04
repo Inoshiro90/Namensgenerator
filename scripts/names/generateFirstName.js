@@ -167,6 +167,9 @@ function generateFirstName(gender, race, region) {
 				case 'Wechselbalg':
 					firstName = generateRandomFirstNameChangeling();
 					break;
+				case 'Yuan-Ti':
+					firstName = generateRandomFirstNameYuanTi();
+					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);
 			}
@@ -337,6 +340,9 @@ function generateFirstName(gender, race, region) {
 				case 'Wechselbalg':
 					firstName = generateRandomFirstNameChangeling();
 					break;
+				case 'Yuan-Ti':
+					firstName = generateRandomFirstNameYuanTi();
+					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);
 			}
@@ -506,6 +512,9 @@ function generateFirstName(gender, race, region) {
 					break;
 				case 'Wechselbalg':
 					firstName = generateRandomFirstNameChangeling();
+					break;
+				case 'Yuan-Ti':
+					firstName = generateRandomFirstNameYuanTi();
 					break;
 				default:
 					console.error('Ungültiges Volk des Autors:', race);
