@@ -170,6 +170,9 @@ function generateLastName(gender, race, region, firstName) {
 		case 'Yuan-Ti':
 			lastName = generateRandomLastNameYuanTi();
 			break;
+		case 'Zentaur':
+			lastName = generateRandomLastNameCentaur();
+			break;
 		default:
 			console.error('Ungültiges Volk des Autors:', race);
 	}

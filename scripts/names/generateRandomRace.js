@@ -58,6 +58,7 @@ function generateRandomRace() {
 		'Wandler',
 		'Wechselbalg',
 		'Yuan-Ti',
+		'Zentaur'
 	]);
 	// console.log('Zufällig ausgewähltes Volk ist ' + race)
 	return race;

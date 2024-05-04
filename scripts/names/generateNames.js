@@ -212,6 +212,9 @@ function generateNames() {
 					case 'Yuan-Ti':
 						race = 'Yuan-Ti';
 						break;
+					case 'Zentaur':
+						race = 'Zentaur';
+						break;
 					default:
 						console.error('Ungültiges Volk: ' + selectedRace);
 						break;
@@ -329,6 +332,7 @@ function generateNames() {
 					case 'Wandler':
 					case 'Wechselbalg':
 					case 'Yuan-Ti':
+					case 'Zentaur':
 						region = '';
 						break;
 					default:
