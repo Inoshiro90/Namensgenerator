@@ -71,6 +71,9 @@ function generateNames() {
 					case 'Astralelf':
 						race = 'Astralelf';
 						break;
+					case 'Autognom':
+						race = 'Autognom';
+						break;
 					case 'Blasself':
 						race = 'Blasself';
 						break;
@@ -285,6 +288,7 @@ function generateNames() {
 					case 'Drachenblütiger':
 					case 'Aarakocra':
 					case 'Astralelf':
+					case 'Autognom':
 					case 'Blasself':
 					case 'Duergar':
 					case 'Drow':

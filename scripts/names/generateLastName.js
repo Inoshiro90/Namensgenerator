@@ -45,6 +45,9 @@ function generateLastName(gender, race, region, firstName) {
 		case 'Aarakocra':
 			lastName = generateRandomLastNameAarakocra();
 			break;
+		case 'Autognom':
+			lastName = generateRandomLastNameGnome();
+			break;
 		case 'Duergar':
 			lastName = generateRandomLastNameDuergar();
 			break;
